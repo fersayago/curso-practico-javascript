@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript desde HTML</title>
+</head>
+<body>
+  <header>
+    <h1>
+      Javascript desde HTML
+    </h1>
+  </header>
+
+  <p>Primer taller de curso practico de JS</p>
+
+  <section>
+    <h2>Calcular el area y perimetro de un cuadrado</h2>
+    <form>
+      <label for="inputCuadrado">
+        Escribe cuanto mide cada lado de tu cuadrado:
+      </label>
+      <br>
+      <input id="inputCuadrado" type="number" />
+      <br>
+      <button type="button" onclick="calcularPerimetroCuadradoDesdeDocumento()">Calcular Perimetro</button>
+      <br>
+      <button type="button" onclick="calcularAreaCuadradoDesdeDocumento()">Calcular Area</button>
+    </form>
+  </section>
+  
+  <script src="./script.js"></script>
+</body>
+</html>
